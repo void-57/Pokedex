@@ -48,7 +48,7 @@ const SearchBar = ({ onSearch, isLoading = false }) => {
       <div className="relative flex shadow-lg rounded-lg overflow-hidden transition-all duration-200 hover:shadow-xl">
         <Input
           type="text"
-          placeholder={`Search Pokémon (min ${minSearchLength} characters)...`}
+          placeholder={`Search Pokémon`}
           value={query}
           onChange={handleInputChange}
           className="w-full pl-10 sm:pl-12 pr-10 py-3 h-12 sm:h-14 border-0 focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 transition-all duration-200"
