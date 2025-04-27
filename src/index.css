@@ -1,0 +1,47 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 0 0% 3.9%;
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 3.9%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 3.9%;
+  --primary: 0 0% 9%;
+  --primary-foreground: 0 0% 98%;
+  --secondary: 0 0% 96.1%;
+  --secondary-foreground: 0 0% 9%;
+  --muted: 0 0% 96.1%;
+  --muted-foreground: 0 0% 45.1%;
+  --accent: 0 0% 96.1%;
+  --accent-foreground: 0 0% 9%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 0 0% 89.8%;
+  --input: 0 0% 89.8%;
+  --ring: 0 0% 3.9%;
+  --radius: 0.5rem;
+  --color-pokemon-fire: #f97316;
+  --color-pokemon-water: #0ea5e9;
+  --color-pokemon-rock: #8e9196;
+  --color-pokemon-flying: #d3e4fd;
+  --color-pokemon-electric: #facc15;
+  --color-pokemon-grass: #22c55e;
+  --color-pokemon-poison: #a855f7;
+  --color-pokemon-bug: #84cc16;
+  --color-pokemon-normal: #a1a1aa;
+  --color-pokemon-ground: #b45309;
+  --color-pokemon-fairy: #fb7185;
+  --color-pokemon-fighting: #dc2626;
+  --color-pokemon-psychic: #ec4899;
+  --color-pokemon-ghost: #7e22ce;
+  --color-pokemon-ice: #7dd3fc;
+  --color-pokemon-dragon: #7c3aed;
+  --color-pokemon-dark: #374151;
+  --color-pokemon-steel: #64748b;
+}
+
+
