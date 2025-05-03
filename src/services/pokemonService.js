@@ -1,7 +1,7 @@
 import { toast } from "sonner";
 
 const BASE_URL = "https://pokeapi.co/api/v2";
-const LIMIT = 100;
+const LIMIT = 1302;
 
 export const fetchPokemonList = async (offset) => {
   try {
