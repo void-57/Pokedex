@@ -169,6 +169,15 @@ const Home = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
+  if ((isListLoading || isDetailsLoading) && allPokemon.length === 0) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <Loader />
+      </div>
+    );
+  }
+  
+
   if (listError || detailsError) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-red-50 p-4">
