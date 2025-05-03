@@ -45,13 +45,13 @@ const FilterOptions = ({
         <DropdownMenuTrigger asChild>
           <Button 
             variant="outline" 
-            className="gap-2 flex items-center text-sm sm:text-base w-full sm:w-auto dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-gray-100 dark:border-gray-700"
+            className="gap-2 flex items-center text-sm sm:text-base w-full sm:w-auto cursor-pointer dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-gray-100 dark:border-gray-700"
           >
             <ChevronDown size={16} />
             <span className="truncate">Sort by: {getSortLabel(currentSort)}</span>
           </Button>
         </DropdownMenuTrigger>
-        <DropdownMenuContent className="w-56 dark:bg-gray-800 dark:text-gray-100 dark:border-gray-700">
+        <DropdownMenuContent className="w-56 bg-white dark:bg-gray-800 dark:text-gray-100 dark:border-gray-700">
           <DropdownMenuLabel>Sort By</DropdownMenuLabel>
           <DropdownMenuSeparator className="dark:bg-gray-700" />
           <DropdownMenuGroup>
@@ -91,13 +91,13 @@ const FilterOptions = ({
         <DropdownMenuTrigger asChild>
           <Button 
             variant="outline" 
-            className="gap-2 flex items-center text-sm sm:text-base w-full sm:w-auto dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-gray-100 dark:border-gray-700"
+            className="gap-2 flex items-center text-sm cursor-pointer sm:text-base w-full sm:w-auto dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-gray-100 dark:border-gray-700"
           >
             <Filter size={16} />
             <span className="truncate">Type: {currentTypeFilter ? currentTypeFilter.charAt(0).toUpperCase() + currentTypeFilter.slice(1) : "All"}</span>
           </Button>
         </DropdownMenuTrigger>
-        <DropdownMenuContent className="w-56 max-h-[50vh] overflow-y-auto dark:bg-gray-800 dark:text-gray-100 dark:border-gray-700">
+        <DropdownMenuContent className="w-56 max-h-[50vh] overflow-y-auto bg-white dark:bg-gray-800 dark:text-gray-100 dark:border-gray-700">
           <DropdownMenuLabel>Filter by Type</DropdownMenuLabel>
           <DropdownMenuSeparator className="dark:bg-gray-700" />
           <DropdownMenuGroup>
